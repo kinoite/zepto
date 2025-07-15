@@ -1,0 +1,27 @@
+[main_section]
+background_color = "#2D2A4A"  # Deep desaturated purple-gray, main background
+
+[main_section.frame]
+corner = "rounded"
+margin = 0
+color = "#6E688A"              # Muted lighter purple for frame
+hide = false
+
+[main_section.line_numbers]
+enabled = true
+color = "#8A8AA3"              # Soft gray-blue for line numbers
+gutter_width = 5
+show_separator_line = false
+
+[main_section.status_panel]
+enabled = true
+background_color = "#474567"  # Slightly lighter but still dark shade for status bar
+foreground_color = "#D4CFEC"   # Very light, desaturated lavender for status bar text
+
+[main_section.prompt_panel]
+enabled = true
+background_color = "#5B587E"  # Another darker muted shade for prompt background
+foreground_color = "#D4CFEC"   # Very light, desaturated lavender for prompt text
+
+[editor_behavior]
+vim = false
